@@ -9,42 +9,63 @@
 
 </head>
 
-<div>
-    <h4>Temperature Convertor</h4>
-</div>
-<div id="dev2">
-    <form action="#">
-        <p>
-            <input type="radio" id="test1" name="radio-group" checked>
-            <label for="test1">Apple</label>
-        </p>
-        <p>
-            <input type="radio" id="test2" name="radio-group">
-            <label for="test2">Peach</label>
-        </p>
-        <p>
-            <input type="radio" id="test3" name="radio-group">
-            <label for="test3">Orange</label>
-        </p>
-    </form>
-</div>
 
-<div id="div2">
-    <form action="#">
+<h4>Temperature Convertor</h4>
+
+<div id="continer">
+
+
+    <div class="dev">
+
+
+        <form id="form">
+            <p>
+                <input type="radio" id="css" name="from" value="f">
+                <label for="css">f</label>
+            </p>
+            <p>
+                <input type="radio" id="javascript" name="from" value="c">
+                <label for="javascript">c</label>
+            </p>
+            <p>
+                <input type="radio" id="css2" name="from" value="k">
+                <label for="css2">k</label>
+            </p>
+            <p>
+                <input type="radio" id="javascript2" name="from" value="t">
+                <label for="javascript2">t</label>
+
+            </p>
+    </div>
+
+
+    <div class="dev">
+        <input type="text" name="valye" placeholder="enter value">
         <p>
-            <input type="radio" id="test1" name="radio-group" checked>
-            <label for="test1">Apple</label>
+            <input type="radio" id="test1" name="to" value="f">
+            <label for="test1">f</label>
         </p>
         <p>
-            <input type="radio" id="test2" name="radio-group">
-            <label for="test2">Peach</label>
+            <input type="radio" id="test2" name="to" value="c">
+            <label for="test2">c</label>
         </p>
         <p>
-            <input type="radio" id="test3" name="radio-group">
-            <label for="test3">Orange</label>
+            <input type="radio" id="test3" name="to" value="k">
+            <label for="test3">k</label>
         </p>
+
+        <p>
+            <input type="radio" id="test5" name="to" value="t">
+            <label for="test5">t</label>
+        </p>
+    </div>
+
+    <button type="submit" id="submit"> convert </button>
     </form>
+    <h1 id="reselt"></h1>
+    <h1 id="equ"></h1>
 </div>
+<Script src="script.js"></Script>
 </body>
 
 </html>
