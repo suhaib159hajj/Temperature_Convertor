@@ -23,6 +23,7 @@ function convert(event) {
             // res = conv.toString();
             break;
         case "°F":
+           conv= fTo(intpt,  to);
             // conv = intpt(9 / 5) + 32;
             equ = " C = (F-32) (5/9) \n ";
             // res = "conv.toString()";
@@ -60,12 +61,12 @@ function fTo(inputDegreeValue,  DegreeType) {
     switch ( DegreeType) 
     {
     
-    case "F" :
+    case "°F" :
     temperature=inputDegreeValue;
     break;
     
-    case'C' :
-    temperature = eval((inputDegreeValue - 32)*(5/9));
+    case"°C" :
+    temperature =eval((inputDegreeValue - 32)*(5/9));
     break;
     
     case 'K':
